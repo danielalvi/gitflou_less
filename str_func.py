@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def upper_string():
     """Функция получает строку и выводит ее 
     заглавными буквами
@@ -8,6 +9,8 @@ def upper_string():
 
 
 
+=======
+>>>>>>> origin/feature/Task3
 def title_string():
     """ Функция получает на ввод строку
     и выводит первое слово
@@ -16,9 +19,15 @@ def title_string():
     title_string = my_title_string.title()
     return title_string
 
+<<<<<<< HEAD
 if __name__ == '__main__':
     print(upper_string())
     print(upper_string.__doc__)
     print(title_string())
     print(title_string.__doc__)
+=======
+
+print(title_string())
+print(title_string.__doc__)
+>>>>>>> origin/feature/Task3
 
